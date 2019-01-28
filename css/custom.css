@@ -9,3 +9,8 @@
 .portfolio-item {
   margin: 10px;
 }
+
+.navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+}
