@@ -33,14 +33,14 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Chris Conley</a>
+      <div class="container nav-container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top" id="name">Chris Conley</a>
         <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
+          <ul class="container navbar-nav ml-auto">
             <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
             </li>
@@ -49,6 +49,9 @@
             </li>
             <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Skills</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="img/ChrisConleyThirdDraftResume.pdf" target="_blank">Resume</a>
             </li>
           </ul>
         </div>
@@ -73,42 +76,46 @@
         <div class="row">
           <div class="col-md-6">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
+              <h4>Tic Tac Thrones</h4>
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                   <i class="fas fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/tictacthrones.png" alt="">
+              <img class="img-fluid" src="img/portfolio/TTT.png" alt="">
             </a>
           </div>
           <div class="col-md-6">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
+              <h4>Expense Tracker</h4>
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                   <i class="fas fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/expense-tracker.png" alt="">
+              <img class="img-fluid" src="img/portfolio/ET.png" alt="">
             </a>
           </div>
           <div class="col-md-6">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
+              <h4>Inventory Management System</h4>
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                   <i class="fas fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/ims.png" alt="">
+              <img class="img-fluid" src="img/portfolio/IMS.png" alt="">
             </a>
           </div>
           <div class="col-md-6">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
+              <h4>Daily Fantasy Champs</h4>
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                   <i class="fas fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/game.png" alt="">
+              <img class="img-fluid" src="img/portfolio/DFC.png" alt="">
             </a>
           </div>
         </div>
@@ -154,8 +161,7 @@
             <i class="icon devicon-jquery-plain-wordmark colored"></i>
             <i class="icon devicon-nodejs-plain-wordmark colored"></i>
             <i class="icon fab fa-fw fa-npm"></i>
-            <i class="devicon-express-original-wordmark"></i>
-            
+            <i class="icon accordiondevicon-express-original-wordmark"></i>
             <br/>
             <i class="icon devicon-ruby-plain-wordmark colored"></i>
             <i class="icon devicon-rails-plain-wordmark colored"></i>
@@ -183,17 +189,17 @@
             <h4 class="text-uppercase mb-6">Where to Find Me</h4>
             <ul class="list-inline mb-0">
               <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.linkedin.com/in/christopher-conley">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.linkedin.com/in/christopher-conley" target="_blank">
                   <i class="fab fa-fw fa-linkedin-in"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://github.com/ceconley">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://github.com/ceconley" target="_blank">
                   <i class="fab fa-fw fa-github"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="mailto:ceconley4@gmail.com">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="mailto:ceconley4@gmail.com" target="_blank">
                     <i class="fab fa-fw fa-google"></i>
                 </a>
               </li>
@@ -227,10 +233,20 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <h2 class="text-secondary text-uppercase mb-0">Tic Tac Thrones</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/cabin.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <img class="img-fluid mb-5" src="img/portfolio/TTT.png" alt="">
+              <p class="mb-5">The challenge was to build a single page web application from scratch, without a starter codebase. Additionally, this had to be built to a spec that someone else gave me. I had to use my programming skills to write a custom game engine for Tic Tac Toe. On top of the game logic, I used AJAX to interact with a provided API, to create and store game states. This will allow for multi-player/multi-device game- play in future iterations in addition to seeing game history. This project also gave me an opportunity to create documentation and practice version control, file management and proper code styling.
+              <br/>
+              <br/>
+              Technologies Used: JavaScript, jQuery, AJAX, HTML5, CSS3 and Bootstrap
+              </p>
+              <a href="https://ceconley.github.io/tictactoe-client/" target="_blank">Deployed Site</a>
+              <br/>
+              <br/>
+              <a href="https://github.com/ceconley/tictactoe-client" target="_blank">GitHub Repo</a>
+              <br/>
+              <br/>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
@@ -251,8 +267,18 @@
             <div class="col-lg-8 mx-auto">
               <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/cake.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <img class="img-fluid mb-5" src="img/portfolio/ET.png" alt="">
+              <p class="mb-5">This project is an expense tracking, single-page application with basic user authentication that interacts with a custom API that I built. The backend was built using Ruby on Rails and PostgreSQL. This app allows a signed-in user to create, read, update, and delete data in a Psql database. The user controls these actions on the frontend, along with the ability to organize and analyze the data returned.
+              <br/>
+              <br/>  
+              Technologies Used: Ruby on Rails, PostgreSQL, JavaScript, jQuery, AJAX HTML5, CSS3 and Bootstrap and Handlebars
+              </p>
+              <a href="https://ceconley.github.io/expense-tracker-client/" target="_blank">Deployed Site</a>
+              <br/>
+              <br/>
+              <a href="https://github.com/ceconley/expense-tracker-client" target="_blank">GitHub Repo</a>
+              <br/>
+              <br/>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
@@ -271,10 +297,20 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <h2 class="text-secondary text-uppercase mb-0">Inventory Management System</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/circus.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <img class="img-fluid mb-5" src="img/portfolio/IMS.png" alt="">
+              <p class="mb-5">This project posed much different challenges than pervious assignments. This was my first time working in a group environment as a developer. the 4 group members all started at different levels of understanding and comfort with the content we had learned so far. So, we spent the first day creating a group culture code and going through an old project that had a lot of similarities to our project spec, to make sure everyone was on the same page. Once we were off and running we ran into some obstacles with Git workflow, but we were able to overcome them pretty easily. We also had a couple of issues with members not having work done by agreed upon timelines, so we had to figure out how to pick up that slack. Ultimately we were able to meet the MVP by the deadline. The project was an Inventory Management System for an online retailer. It was again a full stack, single page application, only this time we used Express and Mongo for the backend.
+              <br/>
+              <br/>
+              Technologies Used: Express.Js, MongoDB, JavaScript, jQuery, AJAX, HTML5, CSS3, Bootstrap and Handlebars
+              </p>
+              <a href="https://ceconley.github.io/inventory-management-system-client/" target="_blank">Deployed Site</a>
+              <br/>
+              <br/>
+              <a href="https://github.com/ceconley/inventory-management-system-client" target="_blank">GitHub Repo</a>
+              <br/>
+              <br/>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
@@ -293,10 +329,20 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <h2 class="text-secondary text-uppercase mb-0">Daily Fantasy Champs</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/game.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <img class="img-fluid mb-5" src="img/portfolio/DFC.png" alt="">
+              <p class="mb-5">My second and third projects were more serious and business oriented. So, for my capstone, I wanted to build something more fun. Since I enjoy playing daily fantasy sports, I decided to make a fantasy football single page application. This allows players to select from pre-made lineups and enter them in different contests. There were 2 major challenges I put on myself for this project. The first was on the backend. There are 3 resources that all have a many-to-many relationships with each other. The second was on the frontend. The user doesn’t have to input any information once they are logged in.
+              <br/>
+              <br/>
+              Technologies Used: Ruby on Rails, PostgreSQL, JavaScript, jQuery, AJAX, HTML5, CSS3, Bootstrap and Handlebars
+              </p>
+              <a href="https://ceconley.github.io/daily-fantasy-champs-client/" target="_blank">Deployed Site</a>
+              <br/>
+              <br/>
+              <a href="https://github.com/ceconley/daily-fantasy-champs-client" target="_blank">GitHub Repo</a>
+              <br/>
+              <br/>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
