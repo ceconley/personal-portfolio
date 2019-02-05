@@ -1,16 +1,16 @@
-#portrait {
-  border-radius: 55%;
-}
-
 .icon {
   font-size: 5rem;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .portfolio-item {
   margin: 10px;
 }
 
-.navbar-nav {
-  display: flex;
-  justify-content: flex-end;
+#portrait {
+  border-radius: 55%;
 }
