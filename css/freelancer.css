@@ -41,7 +41,7 @@ hr.star-dark::after {
   top: -0.8em;
   display: inline-block;
   padding: 0 0.25em;
-  content: '\f005';
+  content: '\f10b' ' ' '\f109' ' ' '\f3fa';
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   font-size: 2em;
@@ -53,15 +53,15 @@ hr.star-light {
 
 hr.star-light::after {
   color: #fff;
-  background-color: #18bc9c;
+  background-color: #5F7D99;
 }
 
 hr.star-dark {
-  border-color: #2c3e50;
+  border-color: #343a40;
 }
 
 hr.star-dark::after {
-  color: #2c3e50;
+  color: #343a40;
   background-color: white;
 }
 
@@ -128,7 +128,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #18bc9c;
+  color: #5F7D99;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active,
@@ -137,7 +137,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #18bc9c;
+  color: #5F7D99;
 }
 
 #mainNav .navbar-toggler {
@@ -165,14 +165,14 @@ section h2 {
 
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #18bc9c;
+    background: #5F7D99;
   }
 
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active,
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus,
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #18bc9c;
+    background: #5F7D99;
   }
 
   #mainNav.navbar-shrink {
@@ -231,7 +231,7 @@ header.masthead h2 {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background-color: rgba(24, 188, 156, 0.9);
+  background-color: #5F7D99;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -334,7 +334,7 @@ header.masthead h2 {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #18bc9c;
+  color: #5F7D99;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -344,7 +344,7 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2c3e50;
+  background-color: #343a40;
   color: #fff;
 }
 
@@ -353,13 +353,13 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-  color: #18bc9c;
+  color: #5F7D99;
 }
 
 a:focus,
 a:hover,
 a:active {
-  color: #128f76;
+  color: #5F7D99;
 }
 
 .btn {
@@ -367,15 +367,15 @@ a:active {
 }
 
 .bg-primary {
-  background-color: #18bc9c !important;
+  background-color: #5F7D99 !important;
 }
 
 .bg-secondary {
-  background-color: #2c3e50 !important;
+  background-color: #343a40 !important;
 }
 
 .text-primary {
-  color: #18bc9c !important;
+  color: #5F7D99 !important;
 }
 
 .text-secondary {
@@ -383,20 +383,20 @@ a:active {
 }
 
 .btn-primary {
-  background-color: #18bc9c;
-  border-color: #18bc9c;
+  background-color: #5F7D99;
+  border-color: #5F7D99;
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-  background-color: #128f76;
-  border-color: #128f76;
+  background-color: #5F7D99;
+  border-color: #5F7D99;
 }
 
 .btn-secondary {
-  background-color: #2c3e50;
-  border-color: #2c3e50;
+  background-color: #343a40;
+  border-color: #343a40;
 }
 
 .btn-secondary:hover,
